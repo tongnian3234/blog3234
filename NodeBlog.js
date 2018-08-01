@@ -75,7 +75,7 @@ server.get("/*",function(req, res) { //静态设置
     });
 });
 
-server.listen(80,function() {
+server.listen(process.env.PORT,function() {
     console.log('Bingo!');
 });
 
